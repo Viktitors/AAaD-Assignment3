@@ -1,0 +1,29 @@
+Example 1:
+Introduce number of packets: 5
+Packet 1: 3001
+Packet 2: 1000
+Packet 3: 1000
+Packet 4: 2001
+Packet 5: 2001
+Packet 6: 1000
+In this example although the sum of the packets is less than the addition of the capacities of the 3 lorries:
+sum= 10.003<12.000 ,there is no way to store all of them so the algorithm returns: Oracle was wrong.
+
+Example 2:
+Introduce number of packets: 5
+Packet 1: 3001
+Packet 2: 1000
+Packet 3: 1000
+Packet 4: 2001
+Packet 5: 2001
+
+Output: oracle was right: 1,2,3,2,3
+
+Example 3:
+Introduce number of packets: 4
+Packet 1: 4000
+Packet 2: 4000
+Packet 3: 1000
+Packet 4: 3000
+Packet 5: 1
+As the sum of all weights is bigger than lorries capacity: Output:  Oracle was wrong.
